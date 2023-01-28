@@ -1,6 +1,6 @@
 library("tidyverse")
 
-## uploading database of all traffic stops
+## uploading database of all traffic stops (https://data.sandiego.gov/datasets/police-ripa-stops/)
 ripa_master <- read_csv("~/documents/U-T/sd_police/ripa_stops_datasd.csv") 
 
 ## uploading race data that corresponds to each stop
